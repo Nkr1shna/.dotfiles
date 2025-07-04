@@ -1,0 +1,9 @@
+typeset -U path
+path=(
+    /opt/homebrew/bin
+    ~/.lmstudio/bin
+    ~/Library/Python/3.9/bin
+    ~/.local/bin
+    $path
+)
+export PATH
