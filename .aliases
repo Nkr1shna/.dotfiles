@@ -2,3 +2,4 @@ alias c='clear'
 # Override zim/exa alias to not include git
 alias ls='eza --icons=always --group-directories-first'
 alias ll='ls -l'
+alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'

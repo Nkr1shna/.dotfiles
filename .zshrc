@@ -2,7 +2,8 @@
 [[ -f ~/.paths ]] && . ~/.paths
 # Zim Config
 [[ -f ~/.defaultzim ]] && . ~/.defaultzim
-
+#Pluguns
+[[ -f ~/.zshplugins ]] && . ~/.zshplugins
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -19,3 +20,7 @@ eval "$(oh-my-posh init zsh --config ~/.nest.omp.json)"
 
 # History Config
 [[ -f ~/.zhistconfig ]] && . ~/.zhistconfig
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:$HOME/.lmstudio/bin"
+# End of LM Studio CLI section
+
