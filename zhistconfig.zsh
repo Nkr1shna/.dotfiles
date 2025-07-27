@@ -10,5 +10,5 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups 
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' menu no
-
-eval "$(zoxide init --cmd cd zsh)"
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
+zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
